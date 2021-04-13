@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./images/machineLearning.png")center/cover no-repeat;
+    color: rgb(227, 231, 3);
+    font-family: sans-serif;
+    font-weight: 100;
+/*
+    All of this can be done in just a single line like above
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.counter-box{
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 9px 9px 10px 12px rgba(0, 0, 0, 0.6);
+    border: solid 3px wheat;
+    padding: 1.5em;
+}
+
+.btn{
+    margin: 1.5em 0.5em;
+    padding: 0.5em 1.2em;
+    font-size: 0.8em;
+    transition: 0.3s;
+    border-radius: 9px;
+    outline: none;
+    box-shadow: 5px 3px black;
+}
+
+.btn:active{
+box-shadow: none;
+}
+
+
+.btn:hover{
+transform: scale(0.98);
+}
+
+.counter{
+    font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
